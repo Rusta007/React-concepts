@@ -1,0 +1,39 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgb(215, 138, 138);
+}
+.add-to-cart-image{
+  width: 50px;
+
+}
+.product{
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+  height: 20px;
+
+}
+.image{
+  width: 20px;
+  height: 20px;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
